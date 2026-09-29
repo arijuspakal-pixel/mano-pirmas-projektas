@@ -1,13 +1,3 @@
-<div class="content-box">
-    <h1>Mano svetainė veikia!</h1>
-    <p>Sveiki, čia mano pirmasis tinklalapis, kurį sukūriau naudodamasis GitHub Pages.</p>
-   
-    <h3>Mano tikslai:</h3>
-    <ul>
-        <li>Išmokti naudotis GitHub</li>
-        <li>Sukurti gražią svetainę</li>
-    </ul>
-</div>
 <style>
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -23,4 +13,35 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    /* Sukuriame stilingą baltą dėžutę aplink jūsų tekstą, kad jis gerai matytųsi miško fone */
+    .content-box {
+        background-color: rgba(255, 255, 255, 0.92); /* Pusiau permatomas baltas fonas */
+        max-width: 600px;
+        width: 100%;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15); /* Švelnus šešėlis gylio efektui */
+        box-sizing: border-box;
+    }
+
+    h1 {
+        color: #2da44e; /* Žalia GitHub spalva antraštei */
+        margin-top: 0;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 20px;
+        color: #0969da;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 </style>
+
+
