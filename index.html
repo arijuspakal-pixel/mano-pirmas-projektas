@@ -1,47 +1,69 @@
-<style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        /* Įkeliame medžių nuotrauką iš interneto */
-        background-image: url('https://unsplash.com');
-        /* Šie nustatymai užtikrina, kad nuotrauka gražiai padengtų visą ekraną ir nejudėtų skaitant */
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        min-height: 100vh;
-        margin: 0;
-        padding: 40px 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <title>Mano GitHub Svetainė</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* Įkeliame kokybišką jūros nuotrauką iš interneto */
+            background-image: url('https://unsplash.com');
+            /* Užtikriname, kad jūra gražiai padengtų visą ekraną */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-    /* Sukuriame stilingą baltą dėžutę aplink jūsų tekstą, kad jis gerai matytųsi miško fone */
-    .content-box {
-        background-color: rgba(255, 255, 255, 0.92); /* Pusiau permatomas baltas fonas */
-        max-width: 600px;
-        width: 100%;
-        padding: 30px;
-        border-radius: 12px;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15); /* Švelnus šešėlis gylio efektui */
-        box-sizing: border-box;
-    }
+        /* Stilinga, švelniai permatoma balta dėžutė turiniui */
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.90);
+            max-width: 600px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+        }
 
-    h1 {
-        color: #2da44e; /* Žalia GitHub spalva antraštei */
-        margin-top: 0;
-    }
+        h1 {
+            color: #0077b6; /* Jūros mėlyna spalva antraštei */
+            margin-top: 0;
+        }
 
-    a {
-        display: inline-block;
-        margin-top: 20px;
-        color: #0969da;
-        text-decoration: none;
-        font-weight: bold;
-    }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #0096c7;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
 
+    <div class="content-box">
+        <h1>Sveiki atvykę į pajūrį! 🌊</h1>
+        <p>Čia yra mano pirmasis tinklalapis, sėkmingai patalpintas GitHub Pages platformoje.</p>
+       
+        <h3>Mano pasiekimai šiandien:</h3>
+        <ul>
+            <li>Susikūriau GitHub paskyrą</li>
+            <li>Išmokau atlikti „Commit“ (pakeitimus)</li>
+            <li>Pakeičiau svetainės foną į jūrą</li>
+        </ul>
 
+        <a href="https://github.com">Aplankykite mano GitHub profilį</a>
+    </div>
+
+</body>
+</html>
